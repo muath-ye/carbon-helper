@@ -1,0 +1,33 @@
+{
+    "name": "muath-ye/carbon-helper",
+    "description": "Do simple carbon with laravel or any php project.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muathye",
+            "email": "muath.ye@gmail.com"
+        }
+    ],
+    "keywords": [
+        "muath-ye",
+        "carbon",
+        "carbon-helper",
+        "helper"
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MuathYe\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
